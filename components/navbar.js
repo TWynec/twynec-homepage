@@ -1,4 +1,5 @@
 import NextLink from "next/link";
+import NameCard from "../components/namecard";
 import {
   Container,
   Box,
@@ -41,7 +42,6 @@ const Navbar = (props) => {
       as="nav"
       w="100%"
       bg={useColorModeValue("#ffffff40", "#20202380")}
-      style={{ backdropFilter: "blur(10px)" }}
       zIndex={1}
       {...props}
     >
@@ -55,7 +55,7 @@ const Navbar = (props) => {
       >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={"tighter"}>
-            Trace Wynecoop
+            <NameCard />
           </Heading>
         </Flex>
 
@@ -70,16 +70,35 @@ const Navbar = (props) => {
           <LinkItem href="/work" path={path}>
             Work
           </LinkItem>
+          <LinkItem
+            href="https://github.com/TWynec/twynec-homepage"
+            path={path}
+          >
+            Source
+          </LinkItem>
         </Stack>
 
-        <Menu isLazy>
-          <MenuButton
-            as={IconButton}
-            aria-label="Options"
-            icon={<HamburgerIcon />}
-            variant="outline"
-          />
-        </Menu>
+        <Box flex={1} align="right">
+          <Box ml={2} display={{ base: "inline-block", md: "none" }}>
+            <Menu isLazy>
+              <MenuButton
+                as={IconButton}
+                aria-label="Options"
+                icon={<HamburgerIcon />}
+                variant="outline"
+              />
+              <MenuList>
+                <NextLink href="/" passHref>
+                  <MenuItem as={Link}>About</MenuItem>
+                </NextLink>
+                <NextLink href="/work" passHref>
+                  <MenuItem as={Link}>Work</MenuItem>
+                </NextLink>
+                <MenuItem as={Link}>View Source</MenuItem>
+              </MenuList>
+            </Menu>
+          </Box>
+        </Box>
       </Container>
     </Box>
   );
