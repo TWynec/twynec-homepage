@@ -4,7 +4,7 @@ import Section from "../components/section";
 const Page = () => {
   return (
     <Container>
-      <Box borderRadius={"lg"} bg="red" p={3} mb={6} align="center">
+      <Box borderRadius={"lg"} bg="red" p={3} mb={6} textAlign="center">
         Hello, I'm a software engineer!
       </Box>
 
