@@ -6,6 +6,7 @@ import {
   ListItem,
   Link,
   Button,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 import Paragraph from "../components/paragraph";
@@ -16,8 +17,14 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 const Page = () => {
   return (
     <Container>
-      <Box borderRadius="lg" bg="red" p={3} mb={6} align="center">
-        Hello, I'm a software engineer!
+      <Box
+        borderRadius="lg"
+        bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+        p={3}
+        mb={6}
+        align="center"
+      >
+        Hey, I'm a new grad software engineer!
       </Box>
 
       <Box display={{ md: "flex" }}>
@@ -31,6 +38,8 @@ const Page = () => {
         </Box>
       </Box>
 
+      <Box display="inline-block"></Box>
+
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           About
@@ -43,7 +52,12 @@ const Page = () => {
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/work">
-            <Button rightIcon={<ChevronRightIcon />}>Portfolio</Button>
+            <Button
+              rightIcon={<ChevronRightIcon />}
+              bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+            >
+              Portfolio
+            </Button>
           </NextLink>
         </Box>
       </Section>
