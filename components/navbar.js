@@ -69,8 +69,8 @@ const Navbar = (props) => {
           flexGrow={1}
           mt={{ base: 4, nmd: 0 }}
         >
-          <LinkItem href="/work" path={path}>
-            Work
+          <LinkItem href="/portfolio" path={path}>
+            Portfolio
           </LinkItem>
           <LinkItem
             href="https://github.com/TWynec/twynec-homepage"
