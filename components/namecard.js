@@ -12,7 +12,7 @@ const LogoBox = styled.span`
 
 const NameCard = () => {
   return (
-    <Link href="/">
+    <Link href="https://twynec.github.io/twynec-homepage/">
       <LogoBox>
         <Text
           color={useColorModeValue("gray.800", "whiteAlpha.900")}
