@@ -91,18 +91,21 @@ const Navbar = (props) => {
                 variant="outline"
               />
               <MenuList>
-                <NextLink href="/" passHref>
+                <NextLink
+                  href="https://twynec.github.io/twynec-homepage/"
+                  passHref
+                >
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/work" passHref>
-                  <MenuItem
-                    as={Link}
-                    href="https://github.com/TWynec/twynec-homepage"
-                  >
-                    Work
-                  </MenuItem>
+                <NextLink href="/portfolio" passHref>
+                  <MenuItem as={Link}>Portfolio</MenuItem>
                 </NextLink>
-                <MenuItem as={Link}>View Source</MenuItem>
+                <NextLink
+                  href="https://github.com/TWynec/twynec-homepage"
+                  passHref
+                >
+                  <MenuItem as={Link}>View Source</MenuItem>
+                </NextLink>
               </MenuList>
             </Menu>
           </Box>

@@ -10,7 +10,6 @@ import {
 } from "@chakra-ui/react";
 import Section from "../components/section";
 import { IoLogoGithub } from "react-icons/io5";
-import Paragraph from "../components/paragraph";
 
 const Portfolio = () => (
   <Container>
@@ -173,14 +172,17 @@ const Portfolio = () => (
       <Heading as="h3" variant="section-title">
         Eastern Washington University
       </Heading>
+      <Heading as="h3" variant="section-title">
+        Bachelor of Computer Science, 3.96 GPA
+      </Heading>
       <List>
-        <ListItem>Bachelor of Computer Science, 3.96 GPA</ListItem>
+        <ListItem>Graduated Summa Cum Laude.</ListItem>
         <ListItem>
-          Graduated Summa Cum Laude. Studied Computer Science and Mathematics
-          concepts ranging from Data Structures to Calculus. Participated in
-          research alongside the amazing faculty to develop tools ranging from
-          automatic grading systems to predictive keyboards. Repeatedly
-          recognized by the Dean's List for work ethic and outstanding GPA.
+          Studied Computer Science and Mathematics concepts ranging from Data
+          Structures to Calculus. Participated in research alongside the amazing
+          faculty to develop tools ranging from automatic grading systems to
+          predictive keyboards. Repeatedly recognized by the Dean's List for
+          work ethic and outstanding GPA.
         </ListItem>
       </List>
     </Section>
