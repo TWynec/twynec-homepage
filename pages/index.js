@@ -35,7 +35,6 @@ const Page = () => {
           <Paragraph>
             Software Engineer ( Backend, Machine Learning, Fullstack )
           </Paragraph>
-          <Paragraph>Indie Game Developer</Paragraph>
         </Box>
       </Box>
 
@@ -46,10 +45,10 @@ const Page = () => {
           About
         </Heading>
         <Paragraph>
-          I'm a passionate software engineer and game developer with a deep
-          enthusiasm for emerging technologies. I thrive on being at the
-          forefront of innovation and have a track record of developing products
-          that have reached tens of millions of users.
+          I'm a passionate software engineer with a deep enthusiasm for emerging
+          technologies. I thrive on being at the forefront of innovation and
+          have a track record of developing products for Amazon Alexa that have
+          reached tens of millions of users.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/portfolio">

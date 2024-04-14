@@ -7,6 +7,7 @@ import {
   List,
   Link,
   Button,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import Section from "../components/section";
 import { IoLogoGithub } from "react-icons/io5";
@@ -26,6 +27,16 @@ const Portfolio = () => (
       <Heading as="h3" variant="section-title">
         Software Development Engineer Intern, Amazon
       </Heading>
+      <Box
+        borderRadius="lg"
+        bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+        p={3}
+        mb={6}
+        align="center"
+      >
+        Developed tooling to promote cross-team knowledge and accelerate
+        adoption of new AI technologies for Alexa.
+      </Box>
       <UnorderedList>
         <ListItem>
           Developed a prompt engineering tool using Python and TypeScript that
@@ -42,9 +53,21 @@ const Portfolio = () => (
           React
         </ListItem>
       </UnorderedList>
+
       <Heading as="h3" variant="section-title">
         Software Development Engineer Intern, Amazon
       </Heading>
+      <Box
+        borderRadius="lg"
+        bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+        p={3}
+        mb={6}
+        align="center"
+      >
+        Engineer in the Alexa AI organization with a focus on providing
+        information to the AI. Developed a project whose results can be seen
+        throughout the AI and on the front page of Alexa.
+      </Box>
       <UnorderedList>
         <ListItem>
           Developed a service using Python and AWS that provided personalized
@@ -63,7 +86,7 @@ const Portfolio = () => (
       </UnorderedList>
     </Section>
 
-    <Section delay={0.1}>
+    <Section delay={0.3}>
       <Heading as="h2" variant="page-title">
         Projects
       </Heading>
@@ -107,11 +130,9 @@ const Portfolio = () => (
         </ListItem>
         <ListItem>
           Leading the development of a collaborative, procedurally generated
-          horror game centered around escaping an aban- doned research facility.
-          Utilizing Unreal Engine 5 and C++ to craft dynamic procedural levels
-          and implement intricate gameplay systems. Currently spearheading solo
-          development efforts with the goal of eventual release on the Steam
-          platform.
+          horror game about escaping from an abandoned research facility.
+          Currently spearheading solo development efforts with the goal of
+          eventual release on Steam.
         </ListItem>
       </List>
 
@@ -165,16 +186,22 @@ const Portfolio = () => (
       </List>
     </Section>
 
-    <Section delay={0.1}>
+    <Section delay={0.5}>
       <Heading as="h2" variant="page-title">
         Education
       </Heading>
       <Heading as="h3" variant="section-title">
         Eastern Washington University
       </Heading>
-      <Heading as="h3" variant="section-title">
+      <Box
+        borderRadius="lg"
+        bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+        p={3}
+        mb={6}
+        align="center"
+      >
         Bachelor of Computer Science, 3.96 GPA
-      </Heading>
+      </Box>
       <List>
         <ListItem>Graduated Summa Cum Laude.</ListItem>
         <ListItem>
@@ -187,7 +214,7 @@ const Portfolio = () => (
       </List>
     </Section>
 
-    <Section delay={0.1}>
+    <Section delay={0.7}>
       <Heading as="h2" variant="page-title">
         Skills
       </Heading>
@@ -197,10 +224,9 @@ const Portfolio = () => (
       <UnorderedList>
         <ListItem>Python</ListItem>
         <ListItem>Java</ListItem>
+        <ListItem>C and C#</ListItem>
         <ListItem>Data Structures and Algorithms</ListItem>
         <ListItem>JavaScript</ListItem>
-        <ListItem>C++</ListItem>
-        <ListItem>C</ListItem>
         <ListItem>React</ListItem>
         <ListItem>AWS</ListItem>
       </UnorderedList>
