@@ -24,7 +24,7 @@ const Page = () => {
         mb={6}
         align="center"
       >
-        Hey, I'm Trace, a new grad software engineer!
+        Hey, I'm Trace, a Software Engineer at Amazon!
       </Box>
 
       <Box display={{ md: "flex" }}>

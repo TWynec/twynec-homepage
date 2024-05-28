@@ -25,6 +25,20 @@ const Portfolio = () => (
         Experience
       </Heading>
       <Heading as="h3" variant="section-title">
+        Software Development Engineer I, Amazon
+      </Heading>
+      <Box
+        borderRadius="lg"
+        bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+        p={3}
+        mb={6}
+        align="center"
+      >Recently rejoined Amazon as a full time software engineer.</Box>
+
+      <Heading as="h2" variant="page-title">
+        Experience
+      </Heading>
+      <Heading as="h3" variant="section-title">
         Software Development Engineer Intern, Amazon
       </Heading>
       <Box
