@@ -24,6 +24,7 @@ const Portfolio = () => (
       <Heading as="h2" variant="page-title">
         Experience
       </Heading>
+
       <Heading as="h3" variant="section-title">
         Software Development Engineer I, Amazon
       </Heading>
@@ -33,11 +34,10 @@ const Portfolio = () => (
         p={3}
         mb={6}
         align="center"
-      >Recently rejoined Amazon as a full time software engineer.</Box>
+      >
+        Recently rejoined Amazon as a full time software engineer.
+      </Box>
 
-      <Heading as="h2" variant="page-title">
-        Experience
-      </Heading>
       <Heading as="h3" variant="section-title">
         Software Development Engineer Intern, Amazon
       </Heading>
