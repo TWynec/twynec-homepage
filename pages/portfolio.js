@@ -35,7 +35,8 @@ const Portfolio = () => (
         mb={6}
         align="center"
       >
-        Recently rejoined Amazon as a full time software engineer.
+        Writing backend systems to manage Amazon’s inventory, schedule truck
+        transfers, and optimize product distribution across the globe.
       </Box>
 
       <Heading as="h3" variant="section-title">
@@ -129,28 +130,6 @@ const Portfolio = () => (
       </List>
 
       <Heading as="h3" variant="section-title">
-        Research Facility Game
-      </Heading>
-      <List>
-        <ListItem>
-          <Link
-            href="https://github.com/TWynec/Research-Facility"
-            target="_blank"
-          >
-            <Button variant="ghost" leftIcon={<IoLogoGithub />}>
-              Source Code
-            </Button>
-          </Link>
-        </ListItem>
-        <ListItem>
-          Leading the development of a collaborative, procedurally generated
-          horror game about escaping from an abandoned research facility.
-          Currently spearheading solo development efforts with the goal of
-          eventual release on Steam.
-        </ListItem>
-      </List>
-
-      <Heading as="h3" variant="section-title">
         Predicting Solar Flares with Data Mining
       </Heading>
       <List>
@@ -238,7 +217,6 @@ const Portfolio = () => (
       <UnorderedList>
         <ListItem>Python</ListItem>
         <ListItem>Java</ListItem>
-        <ListItem>C and C#</ListItem>
         <ListItem>Data Structures and Algorithms</ListItem>
         <ListItem>JavaScript</ListItem>
         <ListItem>React</ListItem>
@@ -249,7 +227,6 @@ const Portfolio = () => (
       </Heading>
       <UnorderedList>
         <ListItem>Full Stack Development</ListItem>
-        <ListItem>Game Development</ListItem>
         <ListItem>Backend Development</ListItem>
         <ListItem>Data Mining</ListItem>
         <ListItem>Machine Learning </ListItem>
