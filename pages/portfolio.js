@@ -35,8 +35,8 @@ const Portfolio = () => (
         mb={6}
         align="center"
       >
-        Writing backend systems to manage Amazon’s inventory, schedule truck
-        transfers, and optimize product distribution across the globe.
+        Part of the AGI organization, designing web crawlers to support
+        generative AI at Amazon.
       </Box>
 
       <Heading as="h3" variant="section-title">
