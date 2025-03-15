@@ -45,10 +45,11 @@ const Page = () => {
           About
         </Heading>
         <Paragraph>
-          I'm a passionate software engineer with a deep enthusiasm for emerging
-          technologies. I thrive on being at the forefront of innovation and
-          have a track record of developing products for Amazon Alexa that have
-          reached tens of millions of users.
+          I’m a 3x Software Engineer in Amazon’s AI division, where I’ve worked
+          on data services for the Alexa homepage and developing tools for Large
+          Language Model (LLM) advancement. Currently, I’m building datasets to
+          support AI/ML projects across Amazon, ensuring our models have access
+          to high-quality, diverse data.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/portfolio">

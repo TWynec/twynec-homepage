@@ -35,37 +35,17 @@ const Portfolio = () => (
         mb={6}
         align="center"
       >
-        Part of the AGI organization, designing web crawlers to support
-        generative AI at Amazon.
-      </Box>
-
-      <Heading as="h3" variant="section-title">
-        Software Development Engineer Intern, Amazon
-      </Heading>
-      <Box
-        borderRadius="lg"
-        bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-        p={3}
-        mb={6}
-        align="center"
-      >
-        Developed tooling to promote cross-team knowledge and accelerate
-        adoption of new AI technologies for Alexa.
+        Designing bots to gather data from across the internet in support of
+        generative AI initiatives at Amazon
       </Box>
       <UnorderedList>
         <ListItem>
-          Developed a prompt engineering tool using Python and TypeScript that
-          enabled engineers to fine tune Large Language Models
+          Assisted in delivering a $100 million feature for the Alexa+ and Nova
+          AI launches by parsing websites for targeted information
         </ListItem>
         <ListItem>
-          Deployed an AI testing ground to an EC2 instance using CloudFormation
-          which enabled tens of thousands of Machine Learning scientists to
-          interact with their models
-        </ListItem>
-        <ListItem>
-          Developed an internal website to showcase and compare the latest AI
-          models in the Alexa organization using AWS, Python, Typescript, and
-          React
+          Improved customer relations by designing tools to give content owners
+          more control over how their data is used
         </ListItem>
       </UnorderedList>
 
@@ -79,19 +59,44 @@ const Portfolio = () => (
         mb={6}
         align="center"
       >
-        Engineer in the Alexa AI organization with a focus on providing
-        information to the AI. Developed a project whose results can be seen
-        throughout the AI and on the front page of Alexa.
+        Built and maintained internal testing services for AI and Large Language
+        Model development
       </Box>
       <UnorderedList>
         <ListItem>
-          Developed a service using Python and AWS that provided personalized
-          experiences for millions of Alexa users
+          Designed and implemented a tool using Python to fine-tune Large
+          Language Models (LLMs), which improved model accuracy and performance
+          for Alexa
         </ListItem>
         <ListItem>
-          Used Python and Amazon’s web scraped data bases to automate an Alexa
-          home card with thousands of data points per day, removing the need for
-          human input
+          Built an internal AI testing website using TypeScript that enabled
+          tens of thousands of Machine Learning scientists to efficiently
+          validate their models
+        </ListItem>
+      </UnorderedList>
+
+      <Heading as="h3" variant="section-title">
+        Software Development Engineer Intern, Amazon
+      </Heading>
+      <Box
+        borderRadius="lg"
+        bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+        p={3}
+        mb={6}
+        align="center"
+      >
+        Created data insights that have a visible impact across Alexa’s AI
+        systems, including personalized experiences on the front page of Alexa
+        devices
+      </Box>
+      <UnorderedList>
+        <ListItem>
+          Developed a data service using Python and AWS that delivered
+          personalized information to millions of Alexa users
+        </ListItem>
+        <ListItem>
+          Led a long-term project aimed at improving Alexa’s Speech Recognition
+          by increasing knowledge of trending names and terms
         </ListItem>
         <ListItem>
           Led the development on a long-term project which aimed to improve
@@ -198,11 +203,11 @@ const Portfolio = () => (
       <List>
         <ListItem>Graduated Summa Cum Laude.</ListItem>
         <ListItem>
-          Studied Computer Science and Mathematics concepts ranging from Data
-          Structures to Calculus. Participated in research alongside the amazing
-          faculty to develop tools ranging from automatic grading systems to
-          predictive keyboards. Repeatedly recognized by the Dean's List for
-          work ethic and outstanding GPA.
+          Built a strong foundation in Computer Science and Mathematics. Worked
+          on research projects with faculty, contributing to the development of
+          tools for the university like automatic grading systems. Consistently
+          recognized on the Dean's List for academic excellence and commitment
+          to high-quality work.
         </ListItem>
       </List>
     </Section>
@@ -218,7 +223,7 @@ const Portfolio = () => (
         <ListItem>Python</ListItem>
         <ListItem>Java</ListItem>
         <ListItem>Data Structures and Algorithms</ListItem>
-        <ListItem>JavaScript</ListItem>
+        <ListItem>TypeScript</ListItem>
         <ListItem>React</ListItem>
         <ListItem>AWS</ListItem>
       </UnorderedList>
